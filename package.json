@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/UCLA-Creative-Labs/discord-bot-template",
+  "author": "anderson-truong <andersonleetruong@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify",
+    "deploy": "tsx src/deploy_dev.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  }
+}
