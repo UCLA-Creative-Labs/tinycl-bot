@@ -12,6 +12,8 @@
     "deploy": "tsx src/deploy_dev.ts"
   },
   "dependencies": {
+    "contentful": "^10.5.2",
+    "contentful-management": "^10.46.2",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1"
   },
